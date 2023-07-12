@@ -1,0 +1,8 @@
+name: MonsterTag
+version: '${project.version}'
+main: hydrocks.monstertag.MonsterTag
+api-version: 1.19
+commands:
+  startgame:
+    description: Starts the monster tag game!
+    aliases: start
