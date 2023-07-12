@@ -15,15 +15,11 @@ public final class MonsterTag extends JavaPlugin {
     @Override
     public void onEnable() {
         instance = this;
-        // Plugin startup logic
-
         getCommand("startgame").setExecutor(new StartGame());
         new EntityHit(this);
 
     }
 
     @Override
-    public void onDisable() {
-        // Plugin shutdown logic
-    }
+    public void onDisable() {}
 }
